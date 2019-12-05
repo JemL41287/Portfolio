@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 
 <body>
+    <h1>Jennifer Mullin</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-    <div class="header">
-        <div>
-            <h1>Jennifer Mullin</h1>
-            <div class="navbar">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+        </ul>
+    </nav>
 
+    <div class="main">
+
+        <h2>Contact</h2>
+        <div class="contactform">
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email"><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="message"></textarea><br><br>
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
         </div>
-
-    <h2>Contact</h2>
-
-    <form action="/action_page.php">
-        Name<br>
-        <input type="text" name="name"><br>
-        Email<br>
-        <input type="text" name="email"><br>
-        Message<br>
-        <input type="text" name="message"><br><br>
-        <input type="submit" value="Submit">
-    </form>
 
 
 </body>

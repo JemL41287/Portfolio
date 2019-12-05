@@ -1,61 +1,60 @@
 body {
     background-image: url("/Users/jennifermullin/Desktop/Homework/Assignment_1/Portfolio/Assets/images/interlaced.png");
-    width: 100%;
+    padding: 0;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-variant: normal;
 
 }
 
-.header {
+nav {
+    width: 100%;
     background-color: white;
-    margin:0%;
-    height: 90px;
+    overflow: auto;
+}
 
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 210px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav li a {
+    color: #777777;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+h1 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 170px;
+    color: white;
+    background-color: #4aaaa5;
+    width: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 16px 16px 16px;
 
 }
 
 .main {
     background-color: white;
-    width: 960px;
-    margin: 40px;
+    width: 800px;
+    height: 400px;
+    margin: 30px 50px 30px 170px;
     padding: 20px;
     position: absolute;
-    left: 10%;
-
-}
-
-h1 {
-    color: white;
-    background-color: #4aaaa5;
-    width: fit-content;
-    margin: 0% 0% 0% 0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    height: 100%;
-    padding: 0% 5% 0% 5%;
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-.navbar ul {
-    list-style-type: none;
-    float: right;
-    text-align: center;
-    line-height: 25px;
-}
-
-.navbar ul li {
-    display: inline;
-}
-
-.navbar ul li a {
-    color: #777777;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 14px;
 
 }
 
@@ -63,7 +62,46 @@ h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+
 }
 
+img {
+   margin-right: 15px;
+   margin-bottom: 10px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.contactform {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+#name {
+    width: 800px;
+}
+
+#email{
+    width: 800px;
+}
+
+#message{
+    width: 800px;
+}
+
+#submit{
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+}
 
 
