@@ -9,6 +9,7 @@ nav {
     width: 100%;
     background-color: white;
     overflow: auto;
+    border-bottom: 1px solid #cccccc;
 }
 
 
@@ -16,7 +17,7 @@ nav ul {
     list-style-type: none;
     text-align: center;
     line-height: 25px;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 nav ul li {
@@ -54,6 +55,7 @@ h1 {
     margin: 30px 50px 30px 25%;
     padding: 20px;
     position: absolute;
+    border: 1px solid #dddddd;
 
 }
 
@@ -61,6 +63,8 @@ h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
 
 }
 
@@ -80,15 +84,15 @@ p {
 }
 
 #name {
-    width: 800px;
+    width: 90%;
 }
 
 #email{
-    width: 800px;
+    width: 90%;
 }
 
 #message{
-    width: 800px;
+    width: 90%;
 }
 
 #submit{
@@ -102,5 +106,20 @@ p {
     vertical-align: middle;
     padding: 5px 5px 5px 5px;
 }
+  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+   
 
 
