@@ -1,5 +1,5 @@
 body {
-    background-image: url("./Assets//images/interlaced.png");
+    background-image: url("../images/interlaced.png");
     padding: 0;
     margin: 0%;
 
@@ -14,10 +14,9 @@ nav {
 
 nav ul {
     list-style-type: none;
-    float: right;
     text-align: center;
     line-height: 25px;
-    margin-right: 210px;
+    margin-left: 30%;
 }
 
 nav ul li {
@@ -36,7 +35,7 @@ nav li a {
 h1 {
     position: absolute;
     margin-top: 0px;
-    margin-left: 170px;
+    margin-left: 25%;
     color: white;
     background-color: #4aaaa5;
     width: fit-content;
@@ -50,9 +49,9 @@ h1 {
 
 .main {
     background-color: white;
-    width: 800px;
+    width: 50%;
     height: 400px;
-    margin: 30px 50px 30px 170px;
+    margin: 30px 50px 30px 25%;
     padding: 20px;
     position: absolute;
 
