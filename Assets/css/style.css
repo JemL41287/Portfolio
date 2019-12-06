@@ -78,20 +78,32 @@ p {
 
 .contactform {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #777777;
 }
 
 #name {
     width: 90%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd
 }
 
 #email{
     width: 90%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd
 }
 
 #message{
     width: 90%;
+    height: 200px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd
 }
 
 #submit{
@@ -99,11 +111,11 @@ p {
     color: white;
     background-color: #4aaaa5;
     width: fit-content;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     display: inline-block;
     vertical-align: middle;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px;
 }
   
 
@@ -119,6 +131,32 @@ p {
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
-   
+
+
+.widget {
+    position: relative;
+    float:left;
+    width: 25%;
+    margin: 10px 40px 10px 40px;
+}
+
+.widget img{
+    width: 150%;
+}
+
+.widget h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 5px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
 
 
