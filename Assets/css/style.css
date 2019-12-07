@@ -157,6 +157,8 @@ p {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 
